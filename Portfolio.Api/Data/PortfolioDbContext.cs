@@ -11,13 +11,6 @@ namespace Portfolio.Api.Data
         {
         }
 
-        /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=localhost;Database=PortfolioDb;Trusted_Connection=True;MultipleActiveResultSets=true");
-            }
-        }*/
 
         public DbSet<Project> Projects { get; set; }
         public DbSet<ContactMessage> ContactMessages { get; set; }
