@@ -64,7 +64,7 @@ public class ProjectsController : ControllerBase
         return NoContent();
     }
 
-    /*[HttpDelete("{id}")]
+    [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteProject(int id)
     {
         var project = await _context.Projects.FindAsync(id);
@@ -77,5 +77,5 @@ public class ProjectsController : ControllerBase
         await _context.SaveChangesAsync();
 
         return NoContent();
-    }*/
+    }
 }
