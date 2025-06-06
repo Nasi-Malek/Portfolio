@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="~/css/site.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">
+            Nastaran
+            <span>Malekshahi</span>
+        </a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#references">References</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Nastaran</span></h1>
+            <h3 class="text-animation">I'm a <span class="typing-text">.NET Developer</span></h3>
+            <div class="btn-group">
+                <a href="~/files/CV - Nastaran Malekshahi.pdf" class="btn" download="CV - Nastaran Malekshahi.pdf">Download CV</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="~/images/profile.jpg" alt="Portrait of Nastaran">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <h2 class="section-heading">About Me</h2>
+        <p>
+            Hello, I'm Nastaran — a .NET developer with a strong interest in building reliable, maintainable, and user-friendly web applications. I enjoy turning ideas into clean, functional code and always strive to follow best practices in software development.
+
+            My focus is on creating solutions that are both technically sound and meaningful for users. I’m comfortable working across the full stack, with a particular passion for backend development using ASP.NET Core.
+
+            Outside of coding, I’m a curious learner who enjoys exploring new technologies, reading, and working on creative side projects. I believe in clear communication, teamwork, and continuous growth.!
+        </p>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="section-heading">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <i class="devicon-csharp-plain colored"></i>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-dotnetcore-plain colored"></i>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-html5-plain colored"></i>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-css3-plain colored"></i>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-javascript-plain colored"></i>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-dotnetcore-plain colored"></i>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-azure-plain colored"></i>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-git-plain colored"></i>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-github-original colored"></i>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-react-original colored"></i>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-microsoftsqlserver-plain colored"></i>
+            </div>
+            <div class="skill-item">
+                <i class="devicon-dot-net-plain colored"></i>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="project" id="project">
+        <h2 class="section-heading">Projects</h2>
+        <div class="project-container" id="project-list">
+            <a href="https://github.com/Nasi-Malek/WebApp.Bank.git" target="_blank" class="project-item">
+                <div class="project-item">
+                    <img src="~/images/WebApp.Bank.jpg" alt="BankApp">
+                    <h3>BankApp</h3>
+                    <p>A simple banking application.</p>
+                    <p>ASP.Net Core, C#, SQL Server</p>
+                </div>
+            </a>
+            <a href="https://github.com/Nasi-Malek/BeachHotel_App.git" target="_blank" class="project-item">
+                <div class="project-item">
+                    <img src="~/images/BeachHotel_App.jpg" alt="HotelApp">
+                    <h3>BeachHotel</h3>
+                    <p>A hotel booking management system that supports room reservations, guest services, and payment tracking.</p>
+                    <p>ASP.NET Core, C#, Entity Framework Core, SQL Server</p>
+                </div>
+            </a>
+            <a href="https://github.com/Nasi-Malek/API_Project.git" target="_blank" class="project-item">
+                <div class="project-item">
+                    <img src="~/images/API_Project.jpg" alt="Testning">
+                    <h3>Advertisement WebAPI</h3>
+                    <p>A RESTful WebAPI designed for managing ads and listings efficiently.</p>
+                    <p>.NET WebAPI (RESTful)</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="references" id="references">
+        <h2 class="section-heading">References</h2>
+        <div class="reference-card">
+            <p>"Great test. Excellent level of detail. You are so skilled; I wish you had attempted the higher-level tasks."</p>
+            <h4>"Teacher"</h4>
+        </div>
+        <div class="reference-divider"></div>
+        <div class="reference-card">
+            <p>"She is a pleasure to work with and a fighter who is always eager to learn."</p>
+            <h4>"Employer"</h4>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-heading">Contact <span>Me</span></h2>
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea placeholder="Your message"></textarea>
+            </div>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/nastaran-malekshahi-766132234/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Nasi-Malek"><i class='bx bxl-github'></i></a>
+        </div>
+        <p>Nastaran Malekshahi | All Rights Reserved</p>
+    </footer>
+
+    <script src="~/js/site.js"></script>
+</body>
+</html>
