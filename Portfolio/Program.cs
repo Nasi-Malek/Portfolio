@@ -38,6 +38,8 @@ namespace Portfolio
                 app.UseExceptionHandler("/Error");
                 app.UseHsts();
             }
+            builder.Services.AddHttpClient();
+
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
